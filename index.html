@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f73">
+  <meta name="description" content="Aplicativo escolar do Abel">
+  <title>Abel | Aplicativo Escolar</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="./assets/logo-abel.png" alt="Logo da Escola Estadual Professor Abel Freire Coelho" class="logo">
+      <div><span class="eyebrow">BEM-VINDO(A) AO</span><h1>ABEL</h1></div>
+    </div>
+    <button id="installBtn" class="install-btn" hidden>Instalar aplicativo</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="pill">APLICATIVO ESCOLAR</span>
+      <h2>Seu espaço,<br><span>mais perto.</span></h2>
+      <p>Uma experiência escolar prática, organizada e feita para o celular.</p>
+      <button class="primary-btn" id="aboutBtn">Conheça o projeto <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="quick-grid" aria-label="Destaques">
+      <article class="quick-card"><div class="card-icon">📚</div><h3>Aprender</h3><p>Um espaço digital pensado para a comunidade escolar.</p></article>
+      <article class="quick-card"><div class="card-icon">📱</div><h3>Na palma da mão</h3><p>Layout adaptado para celulares, tablets e computadores.</p></article>
+      <article class="quick-card"><div class="card-icon">⚡</div><h3>Aplicativo PWA</h3><p>Pode ser adicionado à tela inicial em navegadores compatíveis.</p></article>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <span class="eyebrow">SOBRE O PROJETO</span>
+        <h2>Desenvolvido com dedicação.</h2>
+        <p>Este projeto foi criado como uma aplicação web progressiva (PWA), com aparência de aplicativo e design responsivo.</p>
+      </div>
+      <div class="developer-card">
+        <div class="avatar">ME</div>
+        <div><span class="eyebrow">DESENVOLVEDORA</span><h3>Maria Elenilda Almeida Mesquita</h3><p>Informática · 3º ano</p></div>
+      </div>
+    </section>
+    <p class="notice">Identidade visual baseada na logo oficial enviada da Escola Estadual Professor Abel Freire Coelho.</p>
+  </main>
+
+  <footer><span>ABEL · Projeto PWA</span><span>Feito para aprender e conectar.</span></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
